@@ -58,6 +58,8 @@ O pipeline consome cotações de moedas em tempo real da API REST da AwesomeAPI,
 │   └── pipeline_dag.png
 └── README.md
 
+---
+
 ## 👤 Autor
 
 **Bernardo Martins**  
