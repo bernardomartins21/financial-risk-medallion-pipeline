@@ -29,6 +29,13 @@ O pipeline consome cotações de moedas em tempo real da API REST da AwesomeAPI,
    * Cálculo de média de compra (`avg_bid` arredondado a 4 casas decimais), máximo (`max_high`), mínimo (`min_low`) e volume de eventos (`event_count`).
    * Tabela Delta otimizada para integração direta com Power BI ou Tableau.
 
+   #### 📊 Amostra do Resultado Final (`gold_resumo_cambio`)
+
+   | code | avg_bid | max_high | min_low | event_count |
+   | :--- | :--- | :--- | :--- | :--- |
+   | **USD** | 5.0563 | 5.0650 | 5.0403 | 2 |
+   | **EUR** | 5.6684 | 5.6980 | 5.6586 | 2 |
+
 ---
 
 ## Otimização & Performance
