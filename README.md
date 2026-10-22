@@ -10,7 +10,7 @@ O pipeline consome cotações de moedas em tempo real da API REST da AwesomeAPI,
 [ AwesomeAPI ] ──(REST)─> [ Bronze Layer ] ──(PySpark)──> [ Silver Layer ] ──(PySpark)──> [ Gold Layer ]
 (Raw Data)                   (Clean & Enriched)             (Aggregated)
 
-<img width="1239" height="588" alt="pipeline_dag" src="https://github.com/user-attachments/assets/54e9bc39-ca35-42dd-b3ab-ce1a8a880f61" />
+<img width="1239" height="588" alt="pipeline_dag" src="https://github.com/user-attachments/assets/54e9bc39-ca35-42dd-b3ab-ca1a8a880f61" />
 
 1. **Bronze Layer (`bronze_cotacoes`):**
    * Ingestão incremental de dados brutos em formato JSON via requisições HTTP REST.
